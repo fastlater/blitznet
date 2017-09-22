@@ -1,3 +1,7 @@
+#Run code using:
+#python new_test.py --run_name=BlitzNet300_VOC12 --dataset=voc12-val --split=val --image_size=300 --detect --top_k_post_nms=10 --eval_min_conf=0.50 --save_first_n=1 --ckpt=1 --x4
+#python new_test.py --run_name=BlitzNet300_VOC12 --dataset=voc12-val --split=val --image_size=300 --detect --segment --top_k_post_nms=10 --eval_min_conf=0.50 --save_first_n=1 --ckpt=1 --x4
+
 from glob import glob
 import logging
 import logging.config
